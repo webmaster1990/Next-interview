@@ -29,3 +29,6 @@ The instructions are in the root app/page.tsx
 
 Create a new environment file with the following environment values: 
 NEXT_PUBLIC_API_URL=https://swapi.dev/api/people/
+
+## Live URL 
+https://next-interview-theta.vercel.app/
