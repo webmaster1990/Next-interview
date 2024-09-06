@@ -23,3 +23,9 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## Task
 
 The instructions are in the root app/page.tsx
+
+
+## Environment setup 
+
+Create a new environment file with the following environment values: 
+NEXT_PUBLIC_API_URL=https://swapi.dev/api/people/

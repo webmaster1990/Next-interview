@@ -1,4 +1,5 @@
-import Image from "next/image";
+"use client";
+import PeopleList from "@/components/PeopleList";
 /*
 TASK 1:
 Fetch a list of the first 10 people in the Star Wars API and display their names in a list. docs: https://swapi.dev/documentation#people
@@ -11,5 +12,7 @@ Use react query to create a infinite paginated list of people from the Star Wars
 
 */
 export default function Home() {
-  return <div></div>;
+  return <div className="container mx-auto p-6">
+  <PeopleList />
+</div>;
 }
